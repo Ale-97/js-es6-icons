@@ -1,0 +1,47 @@
+/* GENERICHE */
+.container-fluid{
+    background-color: lightgray;
+    height: 100vh;
+}
+.col{
+    max-width:  calc(100% / 5);
+    flex-basis: calc(100% / 5);
+}
+.title,.cardIcon{
+    background-color: white;
+}
+/* TITOLO */
+.title{
+    color: rgb(41, 177, 221);
+    font-weight: bold;
+    font-size: 30px;
+}
+.title,.searchBar{
+    height:50px;
+}
+/* FILTRO */
+.searchBar{
+    background-color: rgb(41, 177, 221);
+}
+/* CONTENUTO PRINCIPALE */
+.cardIcon{
+    width: 200px;
+    height: 100px;
+    margin: 20px 0;
+    border: 2px solid gray;
+    border-top: none;
+    border-left: none;
+    border-radius: 25px;
+}
+.fas{
+    font-size: 30px;
+}
+.animal{
+    color: blue;
+}
+.vegetable{
+    color: orange;
+}
+.user{
+    color: purple;
+}
