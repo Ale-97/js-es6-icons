@@ -137,7 +137,7 @@ listIconsToHTML('all');
 
 const selectElement = document.querySelector('.type-select');
 
-selectElement.addEventListener('change',(event)=>{
+selectElement.addEventListener('change', (event) => {
     listIconsToHTML(event.target.value);
 })
 
